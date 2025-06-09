@@ -3,6 +3,9 @@ package com.example.cakeorderapp.ui.theme.nav
 import android.window.SplashScreen
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import com.example.cakeorderapp.ui.theme.Screens.ForgotPasswordScreen
 import com.example.cakeorderapp.ui.theme.Screens.LoginScreen
 import com.example.cakeorderapp.ui.theme.Screens.SignupScreen
 import com.example.cakeorderapp.ui.theme.Screens.SplashScreen
@@ -21,4 +24,19 @@ fun AppNavGraph(navController: NavHostController) {
         composable(Screen.AddEditCake.route) { AddEditCakeScreen(navController) }
         composable(Screen.CakeDetail.route) { CakeDetailScreen(navController) }
     }
+}
+
+@Composable
+fun CakeDetailScreen(x0: NavHostController) {
+    TODO("Not yet implemented")
+}
+
+@Composable
+fun AddEditCakeScreen(x0: NavHostController) {
+    TODO("Not yet implemented")
+}
+
+@Composable
+fun HomeScreen(x0: NavHostController) {
+    TODO("Not yet implemented")
 }

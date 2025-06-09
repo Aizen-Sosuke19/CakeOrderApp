@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "346296327801",
+    "project_id": "cakeorderapp-7bdca",
+    "storage_bucket": "cakeorderapp-7bdca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346296327801:android:b8c33ed807b8438d7afea8",
+        "android_client_info": {
+          "package_name": "com.example.cakeorderapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgroR3D6wJ0YeEGOPiK6TicEbv9MeEmp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

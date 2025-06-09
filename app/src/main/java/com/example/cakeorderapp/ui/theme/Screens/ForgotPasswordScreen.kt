@@ -37,7 +37,7 @@ fun ForgotPasswordScreen(
             .padding(16.dp),
         verticalArrangement = Arrangement.Center
     ) {
-        Text(text = "Forgot Password", style = MaterialTheme.typography.h5)
+        Text(text = "Forgot Password", style = MaterialTheme.typography.headlineMedium)
 
         Spacer(modifier = Modifier.height(20.dp))
 

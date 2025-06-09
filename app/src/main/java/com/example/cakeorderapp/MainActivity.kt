@@ -12,7 +12,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.cakeorderapp.ui.theme.CakeOrderAppTheme
-
+import com.google.firebase.FirebaseApp
+import com.example.cakeorderapp.AuthenticationScreen
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

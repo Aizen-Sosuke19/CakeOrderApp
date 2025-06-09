@@ -14,6 +14,7 @@ android {
     defaultConfig {
         applicationId = "com.example.cakeorderapp"
         minSdk = 24
+        //noinspection OldTargetApi
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -51,6 +52,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.firebase.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -58,14 +60,13 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation("androidx.core:core-ktx:1.9.0")
-    implementation("com.example.mylibrary:mylibrary:1.0.2")
+    implementation("androidx.core:core-ktx:1.16.0")
     // Jetpack Compose
-    implementation("androidx.compose.ui:ui:1.5.0")
-    implementation("androidx.navigation:navigation-compose:2.7.3")
+    implementation("androidx.compose.ui:ui:1.8.2")
+    implementation("androidx.navigation:navigation-compose:2.9.0")
 
 // Firebase
-    implementation(platform("com.google.firebase:firebase-bom:32.7.3"))
+    implementation(platform("com.google.firebase:firebase-bom:33.15.0"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-auth-ktx")
     implementation("com.google.firebase:firebase-firestore-ktx")

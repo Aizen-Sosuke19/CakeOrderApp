@@ -15,7 +15,13 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="CakeOrderapp"
+            android:theme="@style/Theme.CakeOrderApp">
+        </activity>
+        <activity
+            android:name=".AuthenticationScreen"
+            android:exported="true"
+            android:label="CakeOrderapp"
             android:theme="@style/Theme.CakeOrderApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
